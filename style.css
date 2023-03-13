@@ -172,27 +172,27 @@ p {
     background: #000000;
     padding-bottom: 0;
 }
-
-@media (max-width: 768px) {
-
-    .title {
-        margin-bottom: 0;
-        font-size: 50px;
-    }
-
-    .sau {
-        height: 120vh;
-    }
-
-    .navbar {
-        display: none;
-    }
-}
-    
+ 
 section[id] {
     scroll-margin-top: 110px;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+.ig  { 
+    width: 50px;
+    height: 45px;
+    margin-bottom: 25px; 
+    margin-top: 20px;
+    
+}
+
+@media screen and (max-width:800px){
+    .head{
+        flex-direction: column;
+        height: 120px;
+        justify-content: space-evenly;
+    }
 }
