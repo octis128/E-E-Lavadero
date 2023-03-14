@@ -16,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 63px;
+    height: 90px;
     background: #171717;
     position: fixed;
     width: 100%;
@@ -29,7 +29,7 @@ body {
 }
 
 .logo {
-    margin-left: 40px;
+    margin-left: 50px;
     
 }
 
@@ -38,7 +38,7 @@ body {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .navbar a {
@@ -47,7 +47,7 @@ body {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .navbar a:hover {
@@ -61,31 +61,31 @@ body {
 }
 
 .header {
-    height: 60vh !important;
-    background: url(digital-art-minimalism-black-background-sports-car-car-drawing-sketches-modern-white-monochrome-wallpaper-preview.jpg) no-repeat center;
+    height: 73vh !important;
+    background: url(lavando\ auto\ un\ negro\ agachado.jpg) no-repeat center;
     background-size: cover;
 }
 
 .title {
-    margin-bottom: 40px;
-    font-size: 60px;
+    margin-bottom: 10px;
+    font-size: 66px;
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
 }
 
 p {
-    margin-bottom: 40px;
-    font-size: 18px;
+    margin-bottom: 30px;
+    font-size: 23px;
     color: #fff;
-    padding: 0 100px;
+    padding: 0 300px;
 }
 
 .btn {
     display: inline-block;
     margin-top: 15px;
-    padding: 10px 40px;
-    border: 3px solid #ffffff;
+    padding: 14px 45px;
+    border: 4px solid #ffffff;
     color: #fff;
     text-decoration: none;
     background: #c5ab36;
@@ -101,10 +101,12 @@ p {
 
 .btn-home a {
     margin: 0 10px;
+    font-size: 20px;
+    border: solid #000000 4px;
 }
 
 .content {
-    height: 50vh;
+    height: 77vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,7 +114,7 @@ p {
 }
 
 .sau {
-    padding: 30px;
+    padding: 40px;
     background: #302e2e;
 }
 
@@ -139,7 +141,7 @@ p {
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: #9c27b0;
+    background: #ad36c5;
     font-size: 2rem;
     margin: 1rem 0;
 }
@@ -189,6 +191,14 @@ html {
     
 }
 
+#txt {
+    border-bottom: solid #000000;
+}
+
+
+
+
+
 @media screen and (max-width:800px){
     .head{
         flex-direction: column;
@@ -196,3 +206,4 @@ html {
         justify-content: space-evenly;
     }
 }
+
